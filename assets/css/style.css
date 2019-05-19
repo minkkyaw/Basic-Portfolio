@@ -45,6 +45,11 @@ body {
     margin-left: 20px;
 }
 
+.inactive-link {
+    pointer-events: none;
+    cursor: default;
+ }
+
 a:nth-child(odd):hover {
     color: #ca8787;
 }
